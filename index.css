@@ -525,7 +525,7 @@ body {
 /* mobile mode media style for footer section */
 @media screen and (max-width: 599px) {
     .footer-sec {
-        gap: 30px;
+        gap: 50px;
         font-size: 18px;
     }
 }
