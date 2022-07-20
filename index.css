@@ -48,8 +48,9 @@ body {
 .heading-part p {
     word-spacing: 4px;
     color: honeydew;
+    font-size: 13px;
     font-family: 'Poppins', sans-serif;
-    line-height: 18px;
+    line-height: 20px;
 }
 
 
