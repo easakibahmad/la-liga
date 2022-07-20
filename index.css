@@ -45,6 +45,13 @@ body {
     font-weight: bolder;
 }
 
+.heading-part p {
+    word-spacing: 4px;
+    color: azure;
+    font-weight: 100;
+}
+
+
 .inside-left button {
     display: flex;
     justify-content: center;
@@ -54,6 +61,16 @@ body {
     font-size: 20px;
     font-weight: bold;
     border-radius: 10px;
+    border: none;
+    background-color: darksalmon;
+}
+
+.inside-left button:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    cursor: pointer;
+    font-size: 1.5em;
+    background-color: hotpink;
+    transition: font-size 1.5s;
 }
 
 .inside-left button i {
@@ -186,6 +203,12 @@ body {
     border-radius: 9px;
     font-weight: bold;
     margin-top: 15px;
+    border: none;
+}
+
+.sec-one-bottom-btn {
+    background-color: hotpink;
+    color: aliceblue;
 }
 
 .right-sec-one {
@@ -248,6 +271,10 @@ body {
 /* tab mode media style for section one */
 
 @media only screen and (min-width: 600px) and (max-width: 1191px) {
+    .main-sec-one {
+        margin-top: 15px;
+    }
+
     .left-sec-one {
         width: 100%;
         height: 100px;
@@ -266,7 +293,7 @@ body {
     .sec-one-bottom-btn {
         height: 40px;
         width: 140px;
-        font-size: 12px;
+        font-size: 13px;
         margin-top: 15px;
         margin-right: 15px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -276,6 +303,7 @@ body {
 
     .sec-one-bottom-btn {
         background-color: hotpink;
+        color: white;
     }
 
     .main-top-div {
@@ -339,20 +367,49 @@ body {
 
 }
 
+/* section two */
+
+.sec-two {
+    visibility: hidden;
+}
+
+/* tab mode media style for section two */
+
+@media only screen and (min-width: 600px) and (max-width: 1191px) {
+    .sec-two {
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    .sec-two button {
+        width: 130px;
+        height: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: orangered;
+        border-radius: 10px;
+        border: none;
+        color: white;
+    }
+}
+
 /* section three */
 
 .sec-three {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: black;
     color: white;
-    padding-bottom: 70px;
+    padding-bottom: 10px;
 }
 
 .inside-sec-three {
     width: 80%;
     row-gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .sec-three-small-div {
@@ -368,17 +425,92 @@ body {
 }
 
 .div-middle-sec-three {
-    border-bottom: 0.2px solid #FFFFF0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .div-bottom-sec-three {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 .sec-three-small-div a {
     text-decoration: none;
     font-family: 'Kanit', sans-serif;
-    font-size: 15px;
+    font-size: 13px;
+    color: wheat;
+    font-weight: bold;
+}
+
+/* tab mode media style for section three */
+
+@media only screen and (min-width: 600px) and (max-width: 1191px) {
+
+    .sec-three-small-div h1 {
+        text-align: center;
+    }
+
+    .sec-three-small-div {
+        display: block;
+    }
+
+    .div-bottom-sec-three {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .sec-three-small-div a {
+        font-size: 12px;
+    }
+
+    .bottom-link {
+        width: 100%;
+        float: center;
+        padding-left: 120%;
+    }
+}
+
+/* mobile mode media style for section two */
+@media screen and (max-width: 599px) {
+    .div-bottom-sec-three {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+        text-align: center;
+    }
+}
+
+/* footer section */
+
+.footer-sec {
+    display: flex;
+    background-color: black;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 25px;
+    padding-bottom: 60px;
+}
+
+/* tab mode media style for section three */
+
+@media only screen and (min-width: 600px) and (max-width: 1191px) {
+    .footer-sec {
+        gap: 35px;
+        font-size: 22px;
+    }
+}
+
+/* mobile mode media style for section two */
+@media screen and (max-width: 599px) {
+    .footer-sec {
+        gap: 30px;
+        font-size: 18px;
+    }
 }
