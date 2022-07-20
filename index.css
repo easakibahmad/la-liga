@@ -41,14 +41,15 @@ body {
 
 .inside-left h1 {
     font-size: 50px;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bolder;
 }
 
 .heading-part p {
     word-spacing: 4px;
     color: honeydew;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    line-height: 18px;
 }
 
 
@@ -164,7 +165,8 @@ body {
 /* heading part style ended */
 
 /* main part started */
-/* section one */
+
+/* section one started*/
 
 .main-sec-one {
     display: flex;
@@ -223,6 +225,7 @@ body {
     height: 362px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .blog-top-img {
@@ -367,7 +370,9 @@ body {
 
 }
 
-/* section two */
+/* section one ended */
+
+/* section two started*/
 
 .sec-two {
     visibility: hidden;
@@ -395,7 +400,10 @@ body {
     }
 }
 
-/* section three */
+
+/* section two ended */
+
+/* section three started*/
 
 .sec-three {
     display: flex;
@@ -475,7 +483,7 @@ body {
     }
 }
 
-/* mobile mode media style for section two */
+/* mobile mode media style for section three */
 @media screen and (max-width: 599px) {
     .div-bottom-sec-three {
         display: grid;
@@ -485,7 +493,9 @@ body {
     }
 }
 
-/* footer section */
+/* section three ended */
+
+/* footer section started */
 
 .footer-sec {
     display: flex;
@@ -498,7 +508,7 @@ body {
     padding-bottom: 60px;
 }
 
-/* tab mode media style for section three */
+/* tab mode media style for footer section */
 
 @media only screen and (min-width: 600px) and (max-width: 1191px) {
     .footer-sec {
@@ -507,7 +517,7 @@ body {
     }
 }
 
-/* mobile mode media style for section two */
+/* mobile mode media style for footer section */
 @media screen and (max-width: 599px) {
     .footer-sec {
         gap: 30px;
@@ -515,7 +525,9 @@ body {
     }
 }
 
-/* style for upcoming-match html file */
+/* footer section ended */
+
+/* some styles started for upcoming-match.html file */
 
 .inside-matches {
     display: flex;
@@ -558,4 +570,4 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
-/* hjjhhfhdj */
+/* style ended for upcoming-match.html file */
