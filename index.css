@@ -47,8 +47,8 @@ body {
 
 .heading-part p {
     word-spacing: 4px;
-    color: azure;
-    font-weight: 100;
+    color: honeydew;
+    font-family: 'Oswald', sans-serif;
 }
 
 
@@ -549,11 +549,13 @@ body {
 .match-detail {
     font-size: 20px;
     font-weight: 800;
+    font-family: 'Poppins', sans-serif;
 }
 
 .match-bottom-txt {
     font-size: 13px;
     margin-top: 7px;
+    font-family: 'Oswald', sans-serif;
 }
 
 /* hjjhhfhdj */
