@@ -142,6 +142,10 @@ body {
 
     .inside-left p {
         font-weight: normal;
+        /* this text is not overflowed, so not needed to add overflow ellipsis */
+        /* text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap; */
     }
 
     .btn-top {
