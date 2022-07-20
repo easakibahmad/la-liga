@@ -78,7 +78,6 @@ body {
 
     .inside-left h1 {
         font-size: 35px;
-        font-family: 'Kanit', sans-serif;
         font-weight: bolder;
         margin-bottom: -4px;
     }
@@ -118,7 +117,6 @@ body {
 
     .inside-left h1 {
         font-size: 30px;
-        font-family: 'Kanit', sans-serif;
         font-weight: bolder;
         margin-bottom: -4px;
     }
@@ -339,4 +337,48 @@ body {
         grid-template-columns: repeat(1, 1fr);
     }
 
+}
+
+/* section three */
+
+.sec-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-bottom: 70px;
+}
+
+.inside-sec-three {
+    width: 80%;
+    row-gap: 20px;
+}
+
+.sec-three-small-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-top-sec-three {
+    margin-top: 25px;
+    font-size: 22px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.div-middle-sec-three {
+    border-bottom: 0.2px solid #FFFFF0;
+}
+
+.div-bottom-sec-three {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sec-three-small-div a {
+    text-decoration: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
 }
